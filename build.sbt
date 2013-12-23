@@ -16,6 +16,7 @@ seq(Revolver.settings: _*)
 
 seq(StartScriptPlugin.startScriptForClassesSettings: _*)
 
+
 javaOptions in Revolver.reStart += "-Dakka.mode=dev"
 
 javaOptions in Revolver.reStart += "-Xdebug"
